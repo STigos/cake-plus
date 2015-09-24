@@ -65,16 +65,17 @@
                   <a href="//..">
                       <img src="images/75943206.gif" alt="" class="img-thumbnail">
                   </a></div>
-               <script >
-               var sting1 = "Строка!";
-               function InsertToHtml(){
-                   document.write(sting1);
-                  
-               }
-               </script>
+                          
+                                            
                <div class="col-lg-12 col-sm-12 col-xs-12">
-                   <p id="forInner">dkfjkl</p>
-                   <button type="button" onclick="forInner()">Push me!</button>
+                   <p>
+                       <script>
+                           function alertM(){
+                           alert("Привет!");
+                       }
+                       </script>
+                       <button onclick="alertM()">Push</button>
+                   </p>    
                </div>
           </div>
          
