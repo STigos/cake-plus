@@ -47,6 +47,9 @@
           </div>
         </div>
         <?php
+        echo "<div class=\"col-lg-12 bg-primary\">";
+        echo "Hi I'am Stigos";
+        echo "</div>";
          
         ?>
             <script>
