@@ -47,10 +47,10 @@
           </div>
         </div>
         <?php
-        echo "<div class=\"col-lg-12 bg-primary\">";
-        echo "Hi I'am Stigos";
-        echo "</div>";
-         
+            echo "<div class=\"col-lg-12 bg-primary\">";
+            echo "Hi I'am Stigos";
+            echo "</div>";
+
         ?>
             <script>
                 
@@ -78,7 +78,11 @@
             <div class="row">
                 <div class="col-lg-6 col-sm-12"><p id="in">Некоторый текст</p>
                     <button onclick="set23()" type="button" accesskey="Enter">Нажми</button></div>
-                <div class="col-lg-6 col-sm-12"><p>Некоторый текст</p></div>
+                <div class="col-lg-6 col-sm-12">
+                    <?php
+                        
+                    ?>
+                </div>
                 
                 
             </div>

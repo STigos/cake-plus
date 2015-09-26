@@ -49,7 +49,7 @@
           </div>
         </div>
           <div class="container">
-               <h2 class="text-center">Cake-plus</h2>
+              <h2 class="text-center">Cake-plus</h2><hr>
               <div class="col-lg-4 col-sm-12 col-md-6">
                   <h4 class="caption">Торты на заказ</h4>
                   <a href="//..">
@@ -67,15 +67,16 @@
                   </a></div>
                           
                                             
-               <div class="col-lg-12 col-sm-12 col-xs-12">
-                   <p>
-                       <script>
-                           function alertM(){
-                           alert("Привет!");
-                       }
-                       </script>
-                       <button onclick="alertM()">Push</button>
-                   </p>    
+               <div class="col-lg-4 col-sm-6 col-xs-12 bg-info col-lg-offset-8">
+                   <footer><form action="test.php">
+                           <div class="input-group btn-group-lg">
+                            <span class="input-group-btn  ">
+                            <input type="text" class="form-control">
+                              <button class="btn btn-primary" type="button">Go!</button>
+                            </span>
+                          </div>
+                       </form>
+                   </footer> 
                </div>
           </div>
          
